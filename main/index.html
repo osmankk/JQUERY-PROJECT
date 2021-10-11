@@ -1,1 +1,268 @@
+<!DOCTYPE html>
+<HTML>
+  <head>
+    <title>My first page</title>
+    <meta charset="UTF-0"> 
+   <link rel="stylesheet" href="source/assest/master.css"> 
+   <script src="source/assest/jquery-1.12.4.min.js"></script>
+   
+  </head>
+  
+  <body>
+    <ul class="nav">
+      <li><a href="#" data-scroll="home"> home</a> </li>
+      <li><a href="#" data-scroll="about">about</a> </li>
+      <li><a href="#" data-scroll="service">service</a> </li>
 
+    </ul>
+    <div class="fixed-menu is-visible">
+    <span class="gear">&#9967;</span>
+      <h3>Change Colors</h3>
+      <ul class="change-color">
+        <li data-col="blue"></li>
+        <li data-col="red"></li>
+        <li data-col="green"></li>
+        <li data-col="purple"></li>
+      </ul>
+      Testing Colors
+      <h3 >Important Links</h3>
+      Change Color
+    
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+  
+     <div id="home" class="block body-background-color ">
+     <h2 class="body-line-color">home</h2>
+     <!-- error message -->
+     <div class="error-message">This is error message appear when  you load this site without high speed internet</div>
+     <!-- button -->
+     <div class="button-effects">
+      <button class="button-effect from-left" >
+        <span></span>
+        <span>To The Right</span>
+      </button>
+      <button class="button-effect from-top" >
+        <span></span>
+        <span>To The top</span>
+      </button>
+      <button class="button-effect border-left" >
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span>border from left</span>
+      </button>
+   
+      <button class="button-effect bounce bounceOne">bounce One</button>
+      <button class="button-effect bounce bounceTow">bounce Two</button>
+      <button class="button-effect bounce bounceThree">bounce Three</button>
+       </div>
+       <!-- progress bar -->
+      <div class="animate-prog color1">
+        <span data-color="35" style="background-color: rgb(139, 134, 219);"></span>
+      </div>
+      <div class="animate-prog color2">
+        <span data-color="50"  style="background-color: rgb(226, 143, 42);" ></span>
+      </div>
+      <div class="animate-prog color3">
+        <span data-color="65" style="background-color: rgb(99, 221, 120);"></span>
+      </div>
+      <div class="animate-prog color4">
+        <span data-color="85" style="background-color: rgb(167, 97, 155);"></span>
+      </div>
+
+      <!-- gallery -->
+      <div class="gellary">
+      <div class="master">
+        <span class="left">&#9664</span>
+        <span class="right">&#9654</span>
+        
+        <img src="" ></div>
+      <div class="album">
+        <span></span>
+        <img src="source/photos/one.jpg" class="selected" height="200" >
+        <img src="source/photos/one.jpg" height="200">
+        <img src="source/photos/one.jpg" height="200">
+        <img src="source/photos/one.jpg" height="200">
+        <img src="source/photos/one.jpg" height="200">
+      </div>
+      </div>
+      <!-- products -->
+      <div class="products">
+      <div class="product">
+        <h3> product one </h3>
+          <span class="date">26-08-2021</span>
+          <img src="source/photos/one.jpg" height="200" width="200">
+          <div class="plus">&#x2B;</div>
+          <div class="minus">&#8722;</div>
+          <p class="description"> <b>This a Test Description </b> </p>
+        
+      </div>
+      
+      <div class="product">
+        <h3> product two </h3>
+          <span class="date">27-08-2021</span>
+          <img src="source/photos/one.jpg" height="200" width="200">
+          <div class="plus">&#x2B;</div>
+          <div class="minus">&#8722;</div>
+          <p class="description"> <b>This a Test Description </b> </p>
+        
+      </div>
+    </div>
+    <!-- items -->
+    <div class="items list-view">
+      <div class="option-view">
+      <div class="grid1" data-class="grid-view">&#x25a6;</div>
+      <div class="list1" data-class="list-view">&#xf039;</div>
+      </div>
+      <div class="item">
+        <h3> item one </h3>
+          <span class="date">26-08-2021</span>
+          <img src="source/photos/one.jpg" height="200" width="200">
+          <div class="plus">&#x2B;</div>
+          <div class="minus">&#8722;</div>
+          <p class="description"> <b>This a Test Description </b> </p>
+          
+        
+      </div>
+      
+      <div class="item">
+        <h3> item two </h3>
+          <span class="date">27-08-2021</span>
+          <img src="source/photos/one.jpg"  height="200" width="200" >
+          <div class="plus">&#x2B;</div>
+          <div class="minus">&#8722;</div>
+          <p class="description"> <b>This a Test Description </b> </p>
+        
+      </div>
+    </div>
+    <div class="our-form">
+      <form>
+        <div>
+         <input type="text" class="detect-unicode" required = 'required' placeholder="type your Name">
+         <div class="unicode"></div>
+          </div>
+         <div>
+        <input type="email" class="auto-direction" required = 'required' placeholder="type your Email">
+        </div>
+        <div>
+        <input type="password" required = 'required'  placeholder="type your Password">
+        </div>
+        <textarea placeholder="Type Your Message" required = 'required'></textarea>
+        <input type="file">
+        <div>
+          <input class="add-tag" type="text"  placeholder="please type your tage then press comma">
+          <div class="tags">
+        
+          </div>
+        </div>
+        
+        <input type="submit" value="send">
+      </form>
+      <div class="trial">
+    <p class="one">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla optio vitae, obcaecati odit architecto magni molestias ab ducimus nisi officia cupiditate nam blanditiis soluta corrupti distinctio molestiae illo saepe ipsa.</p>
+    <p class="two">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum doloremque sequi nihil adipisci non suscipit quisquam rerum voluptate est, molestiae quaerat accusamus, odio quasi? Sed obcaecati suscipit cum aut repellendus?</p> 
+    </div>
+
+
+    <div class="same-height">
+      <div class="height one">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla optio vitae, obcaecati odit architecto magni molestias ab ducimus nisi officia cupiditate nam blanditiis soluta corrupti distinctio molestiae illo saepe ipsa.</div>
+      <div class="height two">Lorem ips sit amet consectetur adipisicing elit. Nulla optio vitae</div> 
+      <div class="height three">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel, perferendis! Placeat facere unde tempore nostrum, omnis </div>
+    </div>
+    <div class="container">
+      <div class="cards">
+        <div class="card card-one">WAIT!! PRESS HERE<br> &#128071; <br> &#128513;</div>
+        <div class="card card-two">WAIT!! PRESS HERE<br>  &#128071;<br>  &#128514;</div>
+        <div class="card card-three">WAIT!! PRESS HERE <br> &#128071;<br>  &#128515;</div>
+        <div class="card card-four">WAIT!! PRESS HERE<br>  &#128071; <br> &#128516;</div>
+      </div>
+    </div>
+        <div class="container">
+        <div class="loop">Welcome from Osman gongratulation please add one more </div>
+        </div> 
+  <div class="container">
+    <div class="tasks">
+      <h3>I WILL DO THESE TASKS &#128513;</h3>
+      <UL class="courses">
+        <li>I will finish Python</li>
+        <li>I will do Css lessons</li>
+        <li>I will do Ai</li>
+
+      </UL>
+      <form class="form-task" methode = 'post'>
+      <input type="text"  class="done" placeholder="type to see the plan">
+      </form>
+    </div>
+  </div> 
+  <div class="container">
+    <p class="typer" data-text = 'hello you are welcome here in my page , honestly we are looking for profectional people'></p>
+  </div>
+  <div class="container">
+    <div class="ten-to-zero">
+      <h3>THIS IS COUNETR DONE BY QJUERY</h3>
+      <ul class="ten-to-zero-list">
+        <li class="active">ONE</li>
+        <li>TWO</li>
+        <li>THREE</li>
+        <li>FOUR</li>
+        <li>FIVE</li>
+        <li>SIX</li>
+        <li>SEVEN</li>
+        <li>EIGHT</li>
+        <li>NINE</li>
+        <li>TEN</li>
+
+      </ul>
+    </div>
+  </div>
+  <div class="contain">
+         <button class="switch">Switch content</button>
+        <div class="choosy ">
+              <ul class="choosy-list">
+                <li class="active" data-content = ".content-one">One</li>
+                <li data-content = ".content-two">Two</li>
+                <li data-content = ".content-three">Three</li>
+                <li data-content = ".content-four">Four</li>
+                <li data-content = ".content-five">Five</li>
+              </ul>
+              <div class="choosy-content">
+                <div class="content-one">THIS IS THE FIRST DIV</div>
+                <div class="content-two">THIS IS THE SECOND DIV </div>
+                <div class="content-three">THIS IS THE THIRD DIV </div>
+                <div class="content-four">THIS IS THE FOURTH DIV</div>
+                <div class="content-five">THIS IS THE FIFTH DIV</div>
+              </div>
+        </div>
+  </div>
+  <div class="cont"></div>
+  <div>
+    <input type="text" class="email-suggest" placeholder="Type your Email please">
+  </div>
+    
+    
+    <!-- <ul class="email-box">
+      <li>gmail.com</li>
+      <li>hotmail.com</li>
+      <li>yahoo.com</li>
+      <li>outlook.com</li>
+    </ul> -->
+  
+  </div>
+
+</div>
+
+
+
+  
+
+<div id="about" class="block "><h2>about</h2></div>
+
+<div id="service" class="block "><h2>service</h2> </div>
+<div class="up">UP</div>
+<script src="source/assest/javajjoury.js"></script>
+</body>
+</html>
